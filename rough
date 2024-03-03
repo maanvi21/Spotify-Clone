@@ -1,0 +1,24 @@
+.musicPlayer{
+    
+
+    min-height: 75vh;
+   float: right;
+    width: 600px;
+    background-color: black;
+    color:aliceblue;
+    font-weight: lighter;
+    text-align: center;
+    position: relative;
+   
+}
+min-height: 75vh;
+position: relative;
+<div class="icons"> 
+        <i class="fa-3x-solid fa-play" id="playButton"></i>
+        <i class="fa-3x-solid fa-pause" id="pauseButton"></i>
+        <i class="fa-3x-solid fa-backward" id="backwardButton"></i>
+        <i class="fa-3x-solid fa-forward" id="forwardButton"></i>
+    </div>
+
+    song=image.textContent;
+    library.textContent= `Now Playing: ${song_1}`;

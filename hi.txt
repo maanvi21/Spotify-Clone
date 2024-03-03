@@ -1,0 +1,105 @@
+float: right;
+   width: 600px;
+     height:650px;
+    font-size: larger;
+     background-color: black;
+     color:aliceblue;
+     font-weight: bolder;
+     text-align: center;
+    margin-top: 70px;
+
+        <div class="musicPlayer" id="musicPlayer"> 
+        <h1>Now Playing  </h1>
+    </div>
+    <div>
+        <select class="about" id="about" > 
+            <option value="account" class="account">Account</option>
+            <option value="personal" class="personal">Personal Settings</option>
+        </select> </div>
+
+        account.addeventlistener("click",()=> {
+    window.location.href = 'account.html';
+})
+personal.addeventlistener("click",()=> {
+    window.location.href = 'personal.html';
+})
+about.addeventlistener("click",()=> {
+    window.location.href = 'about.html';
+})
+
+function openNewPage() {
+            // Change the URL to the path of the new HTML page
+            window.location.href = 'newPage.html';
+        }
+
+        musicCover=document.querySelector("#img1");
+        
+.nowDisplaying1{
+  height: 250px;
+  width: 250px;
+}
+.nowDisplaying3{
+    height: 250px;
+  width: 250px;
+}
+.nowDisplaying4{
+    height: 250px;
+  width: 250px;
+}
+.nowDisplaying5{
+    height: 250px;
+    width: 250px;
+    
+}
+  <span> <img class="pause"src="pause-icon.jpg" alt="pause"> </span>
+    <span> <img class="play"src="play2.jpg" alt="play"> </span>
+    .song_2{
+    margin-top: 30px;
+    margin-left: 15px;
+
+    height:60px;
+    width:300px;
+    border-radius: 50%;
+    background-color: beige;
+    color: black;
+    display:flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+.song_2 img{
+    margin-left:10px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+song=document.querySelector(".song_2");
+    musicCover=document.querySelector("#img2");
+song_2.addEventListener("click",()=>{
+    console.log("Labon Ko- KK");
+    song=song_2.textContent;
+    musicPlayer.textContent= `Now Playing: ${song}`;
+    
+})
+.song2play{
+    display:flex;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+}
+<div class="song_2" id="song_2" >
+    <img src="song_2.jpg" id="img2" alt="Song 2 cover loading...">
+    <h5> Labon Ko- KK</h5>
+     <span > <img class="song2play" src="video-play-icon-1.jpg" alt="play"> </span>
+   </div>
+   <span> <img class="pause"src="pause-icon.jpg" alt="pause"> </span>
+
+   progress =document.querySelector('#myProgressBar');
+myProgressBar.addEventListener("timeupdate",()=>{
+console.log("Time Update");
+})
+<link rel="icon" type="image/x-icon" href="path/to/your/favicon.ico">
+ else
+audioElement.pause();
+console.log("paused");
